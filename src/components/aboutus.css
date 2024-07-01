@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
+* {
+  font-family: "Rammetto One", sans-serif;
+  margin: 0;
+}
+
+.company-sections h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 14px 0;
+  text-transform: capitalize;
+}
+.red-border {
+  width: 50%;
+  border-bottom: 1px solid #000000;
+  margin: 0 auto;
+  height: 16px;
+}
+
+.ct-u-size22 {
+  font-size: 22px;
+}
+
+.marginTop40 {
+  margin-top: 40px !important;
+}
+
+.culture-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.616)),
+    url(https://img.freepik.com/vecteurs-libre/groupe-animaux-sauvages_1308-43813.jpg?w=1800&t=st=1719229645~exp=1719230245~hmac=d8b3c34d4fcb7ff676b38ec8782c23062940db92e03c71bec6c59308852cc0dc)
+      top no-repeat;
+  color: #fff;
+  border-radius: 15% 15% 15% 15% / 15% 15% 15% 15% !important;
+  background-size: cover !important;
+}
+.company-sections,
+.careers-sections,
+.left-headquarter-section-img,
+.right-headquarter-section-img {
+  text-align: center;
+}
+.ct-u-paddingBoth100 {
+  padding: 100px 15px;
+}
+.company-sections h2,
+.careers-sections h2,
+.perks-section h2 {
+  font-weight: 800;
+  font-size: 50px;
+}
