@@ -1,5 +1,5 @@
 /* eslint-disable */
-import "./blogcont.css";
+import "../Css/blogcont.css"; 
 export default function Blogcont({ blog }) {
   return (
     <div className="blogcontanier">

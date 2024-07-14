@@ -1,0 +1,88 @@
+.dashboard {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.dashboard h1{
+  margin-bottom: 50px;
+}
+
+.add {
+  background-color: #000000;
+  padding: 30px;
+  border-radius: 38px;
+  width: 800px;
+  color: rgb(255, 255, 255);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.addauthor, 
+.addbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+input {
+  outline: none;
+}
+textarea{
+  outline: none;
+}
+.addbody label{
+ margin-bottom: 20px;
+ margin-top: 30px;
+}
+.addauthor label{
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.leftit{
+  margin-left: 10px;
+  
+}
+input[type="text"],
+textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.border {
+  border-top: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-align: center;
+}
+
+
+button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #e2e0e0;
+}

@@ -1,5 +1,5 @@
 // eslint-disable
-import "./aboutus.css";
+import "../Css/aboutus.css";
 export default function Aboutus() {
   return (
     <div className="ct-pageWrapper" id="ct-js-wrapper">
